@@ -341,4 +341,97 @@ main {
 .video-creator:hover {
     color: black;
 }
+/*For Mobile*/
+@media (min-width: 200px) and (max-width: 399px) {
+    .left-section {
+        width: 150px;
+    }
+    .left-section img {
+        display: none;
+    }
+    .mid-section {
+        width: auto;
+    }
+    .right-section .names button .vert {
+        padding-top: 0px;
+        width: auto;
+        height: auto;
+    }
+    .right-section .names button {
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+}
+@media (max-width: 500px) {
+    header {
+        padding: 0 8px;
+    }
+    .left-section img {
+        width: 55%;
+        padding-left: 8px;
+    }
+    .mid-section form {
+        width: auto;
+    }
+    .mid-section .mic {
+        width: 60px;
+        height: 34px;
+    }
+    .right-section .names button {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .right-section .names button .vert {
+        margin-right: 0;
+        width: auto;
+    }
+    main {
+        padding: 14px 6px;
+    }
+    aside {
+        height: auto;
+        width: 190px;
+    }
+    nav {
+        margin: 8px 0;
+        padding-right: 0px;
+    }
+    .sign-in i {
+        padding-left: 0px; 
+        margin-right: 0px; 
+    }
+}
+/*For Tablet*/
+@media (min-width: 501px) and (max-width: 768px) {
+    .left-section img {
+        width: 45%;
+        padding-left: 8px;
+    }
+    .mid-section form {
+        width: auto;
+    }
+}
+/*For Pc*/
+@media (min-width: 769px) and (max-width: 869px) {
+    .mid-section form {
+        width: 360px;
+    }
+    .left-section img {
+        width: 55%;
+    }
+}
+@media (min-width: 870px) and (max-width: 1024px) {
+    .mid-section {
+        margin-left: 0;
+        margin: auto;
+
+    }
+    .left-section img {
+        width: 65%;
+        padding-left: 16px;
+    }
+    .mid-section form {
+        width: 444px;
+    }
+}
 
